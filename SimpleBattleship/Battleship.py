@@ -187,7 +187,7 @@ def draw_field_etc(x, y):
         Circle(Point(points[4], points[5]), 20).draw(g)
         Circle(Point(points[6], points[7]), 20).draw(g)
 
-        print("SimpleBattleship over! Gratz bro!")
+        print("Game over! Gratz bro!")
         while True:
             input_quest = input("Would you like to play again? (y/n): ")
             if input_quest != "y" and input_quest != "n":
