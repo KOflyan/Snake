@@ -5,7 +5,7 @@ import pygame
 import time
 import random
 
-from pygame.locals import KEYDOWN, K_LEFT, K_UP, K_DOWN, K_RIGHT, K_b, K_g, K_l, K_r, K_q, K_e, K_n, K_s
+from pygame.locals import *
 
 
 class Apple:
